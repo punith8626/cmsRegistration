@@ -1,0 +1,7 @@
+{
+  "name": "cmsRegistration",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
