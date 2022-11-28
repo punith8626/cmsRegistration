@@ -1,0 +1,46 @@
+.text-center{
+    text-align: center;
+}
+.text-center span{
+    color:#e67e22
+}
+ion-button {
+    --background: #e67e22;
+    --color: #fff;
+    --border-radius: 3px;
+    --border-color: #e67e22;
+    --border-style: solid;
+    --border-width: 2px;
+    --padding-top: 10px;
+    --padding-bottom: 10px;
+}
+ion-button:hover{
+    --background: #fff;
+    color: #e67e22;
+}
+.content{
+    padding: 40px 0px;
+}
+.ion-img{
+    width: 400px !important;
+    margin: 0px auto;
+}
+.condoLogo  ,.nappleLogo {
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+.condoLogo ion-img ,.nappleLogo ion-img{
+    max-width: 100px;
+    margin: 20px auto;
+    cursor: pointer;
+}
+.selectPerson{
+    display: flex;
+    max-width: 300px;
+    margin: 0px auto;
+    align-items: center;
+}
+.homeImage{
+    max-width: 500px;
+    margin: 0px auto;
+}

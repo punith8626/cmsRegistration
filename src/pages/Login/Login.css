@@ -1,0 +1,28 @@
+body{
+  background-color: #F2F1EF;
+}
+.text-center{
+  text-align: center;
+}
+#login-page ion-button {
+  --background: #260980;
+  --color: #fff;
+  --border-radius: 3px;
+  --border-color: #260980;;
+  --border-style: solid;
+  --border-width: 2px;
+  --padding-top: 10px;
+  --padding-bottom: 10px;
+  margin-top: 20px;
+}
+#login-page  ion-button:hover{
+  --background: #fff;
+  color: #260980;;
+}
+.content{
+  padding: 40px 0px;
+}
+.ion-img{
+  width: 400px !important;
+  margin: 0px auto;
+}
