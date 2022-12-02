@@ -29,24 +29,24 @@ const Home = () => {
       //
     }
   };
-  const getSalesPersons = useCallback(async () => {
-    try {
-      const {data} = await api.post("CMSServices/registration/api/getSalesPersonByCommunityId", {
-        CommunityId: selectedCommunity.communityId
-      });
-      setSalesPersons(data);
-    } catch (e) {
-      //
-    }
-  });
+  // const getSalesPersons = useCallback(async () => {
+  //   try {
+  //     const {data} = await api.post("CMSServices/registration/api/getSalesPersonByCommunityId", {
+  //       CommunityId: selectedCommunity.communityId
+  //     });
+  //     setSalesPersons(data);
+  //   } catch (e) {
+  //     //
+  //   }
+  // });
 
   useEffect(() => {
     getCommunities();
   }, []);
 
-  useEffect(() => {
-    getSalesPersons();
-  }, [getSalesPersons, selectedCommunity]);
+  // useEffect(() => {
+  //   getSalesPersons();
+  // }, [getSalesPersons, selectedCommunity]);
 
   const handleClick = community => {
     setSelectedCommunity(community);
